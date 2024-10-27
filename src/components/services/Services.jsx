@@ -26,7 +26,7 @@ const Services = () => {
   return (
     <motion.div
       className="services"
-      variants={variants}
+      // variants={variants}
       initial="initial"
       animate={isInView ? "animate" : "initial"}
       ref={ref}
